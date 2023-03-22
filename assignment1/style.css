@@ -1,0 +1,52 @@
+body{
+    font-family:sans-serif; 
+    background-color: rgb(220, 220, 208);
+    color:whitesmoke;
+}
+
+form{
+        width:35rem;
+        margin: auto;
+        color:white;
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(11, 15, 13, 0.582);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        padding: 20px 25px;
+}
+
+h1,p{
+    text-align: center;
+}
+
+#fname, #lname{
+    padding: 14px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    width: 49.6%;
+    font-size: 1rem;
+}
+
+input[type=email], input[type=password]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+span{
+    color: rgb(33, 17, 17);
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    margin: 7px 0;
+    width: 60%;
+    font-size: 1.4rem;
+    margin-left: 7rem;
+}
